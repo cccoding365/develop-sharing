@@ -4121,6 +4121,18 @@ plantuml-encoder@^1.4.0:
   resolved "https://registry.yarnpkg.com/plantuml-encoder/-/plantuml-encoder-1.4.0.tgz#7899302cf785de956bf1a167e15420feee5975f7"
   integrity sha512-sxMwpDw/ySY1WB2CE3+IdMuEcWibJ72DDOsXLkSmEaSzwEUaYBT6DWgOfBiHGCux4q433X6+OEFWjlVqp7gL6g==
 
+playwright-chromium@^1.45.2:
+  version "1.45.2"
+  resolved "https://registry.yarnpkg.com/playwright-chromium/-/playwright-chromium-1.45.2.tgz#bece4dd637e22243fe4845da232a5e81fe4c3414"
+  integrity sha512-9p7UKy+Nm7mozk/5uk6f1SoDMqrrphYLheVPS2LhYQvep9pRjJJEVpGAO0ULN3uFuxnWA7Y2lbaDxFJykeavHA==
+  dependencies:
+    playwright-core "1.45.2"
+
+playwright-core@1.45.2:
+  version "1.45.2"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.45.2.tgz#c8b8b7f66eda47fb2bd24e5435c92d1163022df8"
+  integrity sha512-ha175tAWb0dTK0X4orvBIqi3jGEt701SMxMhyujxNrgd8K0Uy5wMSwwcQHtyB4om7INUkfndx02XnQ2p6dvLDw==
+
 points-on-curve@0.2.0, points-on-curve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/points-on-curve/-/points-on-curve-0.2.0.tgz#7dbb98c43791859434284761330fa893cb81b4d1"
