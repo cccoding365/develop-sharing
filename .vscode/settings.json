@@ -1,0 +1,7 @@
+{
+    "windicss.includeLanguages": {
+        "markdown": "html",
+        "md": "html"
+    },
+    "unocss.include": ["markdown"]
+}
