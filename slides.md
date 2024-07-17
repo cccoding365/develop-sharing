@@ -290,7 +290,7 @@ img {
 
 # 一、业务开发的提效点
 
-使得业务开发者可以专注于实现业务逻辑，而不是底层的基础设施和通用功能，从而显著提高开发效率
+使得业务开发者可以专注于实现业务逻辑，而不是底层的基础设施和通用功能，从而显著提高开发效率。
 
 <div class="flex justify-center h-90 place-content-center flex-wrap gap-5">
   <v-clicks>
