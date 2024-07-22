@@ -4,6 +4,7 @@ theme: default
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
+favicon: "/favicon.svg"
 # some information about your slides (markdown enabled)
 title: 平台与业务开发的融合
 titleTemplate: "%s - DoubledConG"
@@ -40,13 +41,27 @@ mdc: true
 <div class="h-90 flex gap-5">
   <div class="flex flex-col justify-between">
     <v-clicks>
-      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }" v-mark="{ at: [7,11], type: 'circle' }"><img src="/Vigilante.svg" />服务抽象化</block>
-      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }"><img src="/Wind Energy.svg" />自动化工具</block>
-      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }"><img src="/Smart TV.svg" />资源管理</block>
-      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }"><img src="/Smart Care.svg" />安全性</block>
-      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }"><img src="/Environmental Monitoring.svg" />监控和日志</block>
-      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }"><img src="/Processing Power.svg" />可扩展性</block>
-      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }"><img src="/Satellite Technology.svg" />高可用性</block>
+      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }" v-mark="{ at: [7,11], type: 'circle' }">
+        <img src="/Vigilante.svg" />服务抽象化
+      </block>
+      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }">
+        <img src="/Wind Energy.svg" />自动化工具
+      </block>
+      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }">
+        <img src="/Smart TV.svg" />资源管理
+      </block>
+      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }">
+        <img src="/Smart Care.svg" />安全性
+      </block>
+      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }">
+        <img src="/Environmental Monitoring.svg" />监控和日志
+      </block>
+      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }">
+        <img src="/Processing Power.svg" />可扩展性
+      </block>
+      <block v-motion :initial="{ y: 100 }" :enter="{ y: 0 }">
+        <img src="/Satellite Technology.svg" />高可用性
+      </block>
     </v-clicks>
   </div>
 
@@ -438,12 +453,24 @@ img {
     <div v-click v-motion :initial="{ x: -200 }" :enter="{ x: 0 }" class="text-center text-xl mb-3">平台基建</div>
     <div class="flex flex-col flex-1 justify-between">
       <v-clicks>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/technology.svg" />深入理解前端架构</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/puzzle.svg" />模块化和组件化设计</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/settings.svg" />API设计和开发</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/stats.svg" />性能优化</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/network.svg" />跨团队协作</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/teamwork.svg" />系统思维</block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/technology.svg" />深入理解前端架构
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/puzzle.svg" />模块化和组件化设计
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/settings.svg" />API设计和开发
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/stats.svg" />性能优化
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/network.svg" />跨团队协作
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/teamwork.svg" />系统思维
+        </block>
       </v-clicks>
     </div>
   </div>
@@ -451,12 +478,24 @@ img {
     <div v-click v-motion :initial="{ x: -200 }" :enter="{ x: 0 }" class="text-center text-xl mb-3">业务开发</div>
     <div class="flex flex-1 flex-col justify-between">
       <v-clicks>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/timetable.svg" />快速迭代能力</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/speech.svg" />业务理解</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/palette.svg" />用户界面设计</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/startup.svg" />前端技术栈专长</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/stats-1.svg" />项目管理</block>
-        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }"><img src="/sample-tube.svg" />测试和调试</block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/timetable.svg" />快速迭代能力
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/speech.svg" />业务理解
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/palette.svg" />用户界面设计
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/startup.svg" />前端技术栈专长
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/stats-1.svg" />项目管理
+        </block>
+        <block v-motion :initial="{ y: 200 }" :enter="{ y: 0 }">
+          <img src="/sample-tube.svg" />测试和调试
+        </block>
       </v-clicks>
     </div>
   </div>
@@ -480,37 +519,61 @@ img {
 
 <div class="flex flex-col gap-1 text-sm">
   <div class="flex justify-between items-center">
-    <block v-click v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> <img src="/fenxi.svg" /> 需求分析与规划</block>
+    <block v-click v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> 
+      <img src="/fenxi.svg" /> 需求分析与规划
+    </block>
     <carbon:PortInput v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> <img src="/huanjing.svg" /> 环境搭建与配置</block>
+    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> 
+      <img src="/huanjing.svg" /> 环境搭建与配置
+    </block>
     <carbon:ArrowRight v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> <img src="/mokuai.svg" /> 模块与组件开发</block>
+    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> 
+      <img src="/mokuai.svg" /> 模块与组件开发
+    </block>
     <carbon:ArrowsHorizontal v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> <img src="/bianma.svg" /> 业务编码实践</block>
+    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> 
+      <img src="/bianma.svg" /> 业务编码实践
+    </block>
   </div>
   <div class="flex justify-end pr-10">
     <carbon:ArrowDown v-click class="text-3xl" />
   </div>
   <div class="flex flex-row-reverse justify-between items-center">
-    <block v-after v-motion :initial="{ y: -200 }" :enter="{ y: 0 }"> <img src="/banben.svg" /> 分支版本控制</block>
+    <block v-after v-motion :initial="{ y: -200 }" :enter="{ y: 0 }"> 
+      <img src="/banben.svg" /> 分支版本控制
+    </block>
     <carbon:ArrowLeft v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: 200 }" :enter="{ x: 0 }"> <img src="/bushu.svg" /> 持续集成/部署(CI/CD)</block>
+    <block v-after v-motion :initial="{ x: 200 }" :enter="{ x: 0 }"> 
+      <img src="/bushu.svg" /> 持续集成/部署(CI/CD)
+    </block>
     <carbon:ArrowLeft v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: 200 }" :enter="{ x: 0 }"> <img src="/youhua.svg" /> 性能监控与优化</block>
+    <block v-after v-motion :initial="{ x: 200 }" :enter="{ x: 0 }"> 
+      <img src="/youhua.svg" /> 性能监控与优化
+    </block>
     <carbon:ArrowsHorizontal v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: 200 }" :enter="{ x: 0 }"> <img src="/liulanqi.svg" /> 跨端兼容性测试</block>
+    <block v-after v-motion :initial="{ x: 200 }" :enter="{ x: 0 }"> 
+      <img src="/liulanqi.svg" /> 跨端兼容性测试
+    </block>
   </div>
   <div class="flex pl-15">
     <carbon:arrow-down v-click class="text-3xl" />
   </div>
   <div class="flex justify-between items-center">
-    <block v-after v-motion :initial="{ y: -200 }" :enter="{ y: 0 }"> <img src="/fankui.svg" /> 用户反馈与迭代</block>
+    <block v-after v-motion :initial="{ y: -200 }" :enter="{ y: 0 }"> 
+      <img src="/fankui.svg" /> 用户反馈与迭代
+    </block>
     <carbon:ArrowRight v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> <img src="/wendang.svg" /> 文档与知识共享</block>
+    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> 
+      <img src="/wendang.svg" /> 文档与知识共享
+    </block>
     <carbon:ArrowRight v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> <img src="/zhaiwu.svg" /> 技术债务管理</block>
+    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> 
+      <img src="/zhaiwu.svg" /> 技术债务管理
+    </block>
     <carbon:PortOutput v-click class="text-3xl" />
-    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> <img src="/xuexi.svg" /> 总结反思成长</block>
+    <block v-after v-motion :initial="{ x: -200 }" :enter="{ x: 0 }"> 
+      <img src="/xuexi.svg" /> 总结反思成长
+    </block>
   </div>
 </div>
 
