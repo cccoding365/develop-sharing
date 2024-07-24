@@ -715,8 +715,18 @@ img {
 layout: end
 ---
 
-# Thanks for watching{.italic}
 
-谢谢聆听，欢迎批评指正！
+<div class="italic text-5xl font-extrabold">
+Thanks for watching!
+</div>
+
+<div class="text-gray-500 mt-3 text-sm">
+谢谢聆听，可以访问 talks.hecongcong.com 查看，欢迎批评指正！
+</div>
+
+<div class="flex justify-center left-0 right-0 gap-4 absolute bottom-20">
+  <img class="h-100px" src="/public/talks.png" />
+  <img class="h-100px" src="/public/微信二维码.png" />
+</div>
 
 <PoweredBySlidev mt-10 mx-auto />
